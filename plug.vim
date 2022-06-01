@@ -13,6 +13,7 @@ if has("nvim")
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'neovim/nvim-lspconfig'
+  Plug 'williamboman/nvim-lsp-installer'
   Plug 'tami5/lspsaga.nvim'
   Plug 'folke/lsp-colors.nvim'
   Plug 'L3MON4D3/LuaSnip'
@@ -33,19 +34,19 @@ if has("nvim")
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 
-  Plug 'vim-test/vim-test'
-  Plug 'rcarriga/vim-ultest', { 'do': ':UpdateRemotePlugins' }
+"  Plug 'vim-test/vim-test'
+"  Plug 'rcarriga/vim-ultest', { 'do': ':UpdateRemotePlugins' }
 "  Plug 'puremourning/vimspector'
 "  Plug 'ggandor/lightspeed.nvim'
-  Plug 'mfussenegger/nvim-dap'
+"  Plug 'mfussenegger/nvim-dap'
 "  Plug 'nvim-dap-virtual-text'
-  Plug 'David-Kunz/jester'
-  Plug 'karb94/neoscroll.nvim'
+"  Plug 'David-Kunz/jester'
+"  Plug 'karb94/neoscroll.nvim'
 "  Plug 'rcarriga/nvim-dap-ui'
 endif
 
-Plug 'groenewege/vim-less', { 'for': 'less' }
-Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+" Plug 'groenewege/vim-less', { 'for': 'less' }
+" Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 
 call plug#end()
 
